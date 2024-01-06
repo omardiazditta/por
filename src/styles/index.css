@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --sidebar: hsl(0, 0%, 29%);
+    --verticalBar: hsl(0, 0%, 66%);
+    --textColor: #c2c3c5;
+}
+
+html, body{
+    display: flex;
+    justify-content: center;
+    font-family: Lato;
+    position: relative;
+    height: auto;
+}
+    

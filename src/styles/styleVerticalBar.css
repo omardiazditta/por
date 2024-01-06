@@ -1,0 +1,40 @@
+.ContainerVerticalBar{
+    background-color: var(--verticalBar);
+    position: absolute;
+    width: 70%;
+    right: 0;
+    padding: 3.6rem 0;
+    display: flex;
+}
+
+.containedMainDate{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.titleName{
+    margin-left: 1rem;
+}
+
+.containedWorkHistory{
+    margin-top: 10rem;
+    width: 62%;
+    padding-right: 1rem;
+    overflow-y: scroll;
+  padding-bottom: 2rem;
+    
+}
+
+.hrWorkHistory{
+    right: 1.5rem;
+    position: relative;
+    border: 1px solid black;
+}
+
+ul li{
+    margin-left: 2rem;
+}

@@ -1,0 +1,134 @@
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .aditionalNames{
+        display: block;
+        margin-left: 1rem;
+        color: white;
+    }
+    .cImage{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .cImage, src{
+        margin-left: 2rem;
+    }
+
+    #ContainerSideBar{
+        width: 100%;
+        max-width: none;
+        height: auto;
+        padding-bottom: none;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bachiller, .especialFormation{
+        align-self: flex-start;
+        margin-left: 1rem;
+    }
+
+    .ContainerVerticalBar{
+        display: none;
+    }
+
+    #main{
+        overflow-y: visible;
+        height: auto;
+        flex-direction: column-reverse;
+        display: flex;
+
+    }
+
+    .containedMainDate{
+        position: relative;
+        align-items: flex-start;
+        margin-right: 1.5rem;
+    }
+
+    .containedWorkHistory{
+        margin-top: 2rem;
+        width: 100%;
+        padding-right: 0;
+        
+    }
+
+    .itemSideBar img{
+        width: 150px ;
+        height: 150px;
+    }
+    .containedWorkHistory p, .containedWorkHistory h2, .containedWorkHistory ul{
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+    }
+
+  }
+
+
+
+
+  @media only screen and (max-width: 1080px) {
+    #main{
+      width: 100%;
+
+    }
+
+    .aditionalNames{
+        display: block;
+        margin-left: 3rem;
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 720px) {
+
+    .cImage{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .aditionalNames{
+        display: block;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 1.5rem;
+    }
+
+    .containedIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .redCircle{
+        margin-right: 1rem;
+    }
+
+    .formation p{
+        margin-right: 1.3rem;
+    }
+    
+    .especialFormation {
+        align-self: flex-start;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+  }
